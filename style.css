@@ -177,4 +177,42 @@ button{
 }
 
 /* Mobile Viewport */
-@media(width)
+@media only screen and (max-width: 600px) {
+    /* Mobile only styles go here */
+
+    .section {
+        padding: 40px 10px;
+    }
+
+    nav {
+        padding: 20px 0;
+    }
+    nav a {
+        margin-right: 0px;
+        padding: 15px;
+    }
+
+    #headshot {
+        margin: 0px;
+    }
+
+    #about .right {
+        width: 100%;
+        float: none;
+    }
+
+    #projects .project .left {
+        width: 100%;
+    }
+    #projects .project .right {
+        width: 100%;
+    }
+
+    #projects .project .left img {
+        margin: 20px;
+    }
+
+    #projects .project {
+        margin-bottom: 60px;
+    }
+}
