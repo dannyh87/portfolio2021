@@ -167,3 +167,14 @@ button{
 .details p {
     padding: 20px;
 }
+
+.panel .panel-text {
+    display: none;
+}
+
+.panel.active .panel-text {
+    display: block;
+}
+
+/* Mobile Viewport */
+@media(width)
